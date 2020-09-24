@@ -18,6 +18,8 @@
 * 豌豆莢子的種植農夫
 
    RC 全名為 Replication Controller，豌豆莢子的生命週期由 RC 管理。
+   
+   ![rc](https://raw.githubusercontent.com/QueenieCplusplus/K8s_Pod/master/RC.png)
 
 * 豌豆莢子的土盆栽 (邏輯伺服器與實際虛擬伺服器的關係)
 
