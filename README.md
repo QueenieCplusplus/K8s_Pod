@@ -25,6 +25,9 @@
 
 * Pend
 
+  定義完 Pod 後，第一階段先行傳送至 Master，讓 Master 對 Pod 進行調度協作。
+  倘若到第二階段的映像檔案執行下載也屬於此階段。
+
 * Run 
 
   豌豆莢子被種植入土壤中，即 Pod 被分配到某 Node 上，而相應的 container 的內涵也變成實質的映像檔 image 。
