@@ -84,6 +84,18 @@
 * Fail
 
   運行失敗，因為時間結束前，有一容器以失敗狀態結束，此為最終狀態。
+  
+# 管理工具
+
+* wait for some time and delete old node
+
+            sleep 120
+            kubectl get nodes --sort-by=.metadata.creationTimestamp
+            kubectl delete node $(kubectl get nodes -o jsonpath='{.items[?(@.status.conditions[0].status=="Unknown")].metadata.name}')
+
+* check running pods
+
+            kubectl get pods --all-namespaces
 
 
 # 實作範例
