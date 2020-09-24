@@ -25,6 +25,8 @@
 
 # Life Cycle 生命週期
 
+![pod life cycle](https://raw.githubusercontent.com/QueenieCplusplus/K8s_Pod/master/Life%20Cycle.png)
+
 * Pend
 
   定義完 Pod 後，第一階段先行傳送至 Master，讓 Master 對 Pod 進行調度協作。
