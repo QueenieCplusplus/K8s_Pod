@@ -41,3 +41,8 @@
 * Fail
 
   運行失敗，因為時間結束前，有一容器以失敗狀態結束，此為最終狀態。
+
+
+# 實作範例
+
+  https://godleon.github.io/blog/Kubernetes/k8s-Pod-Overview/
