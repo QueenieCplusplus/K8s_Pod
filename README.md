@@ -48,7 +48,7 @@
 
 * 豌豆莢子與豌豆莢子之間
 
-    彼此獨立，所以 Pod 算是個沙盒。
+    彼此獨立，所以 Pod 算是個沙盒，而 pod 與 pod 之間是靠命名空間區別彼此。
     
     ![pod and pod](https://raw.githubusercontent.com/QueenieCplusplus/K8s_Pod/master/Pod_k8s.png)
     
