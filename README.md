@@ -61,6 +61,8 @@
 * 豌豆莢子的土盆栽 (邏輯伺服器與實際虛擬伺服器的關係)
 
     Node 可能是實體伺服器，也可能是虛擬伺服器。
+    
+    ![node](https://raw.githubusercontent.com/QueenieCplusplus/K8s_Pod/master/Node_k8s.png)
 
 # Life Cycle 生命週期
 
