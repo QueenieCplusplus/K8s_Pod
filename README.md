@@ -50,6 +50,8 @@
 
     彼此獨立，所以 Pod 算是個沙盒。
     
+    ![pod and pod](https://raw.githubusercontent.com/QueenieCplusplus/K8s_Pod/master/Pod_k8s.png)
+    
 * 豌豆莢子的種植農夫
 
    RC 全名為 Replication Controller，豌豆莢子的生命週期由 RC 管理。
