@@ -21,4 +21,14 @@
 
     Node 可能是實體伺服器，也可能是虛擬伺服器。
 
-# LifeCycle 生命週期
+# Life Cycle 生命週期
+
+* Pend
+
+* Run 
+
+  豌豆莢子被種植入土壤中，即 Pod 被分配到某 Node 上，而相應的 container 的內涵也變成實質的映像檔 image 。
+
+* Success
+
+* Fail
