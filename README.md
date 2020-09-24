@@ -1,7 +1,7 @@
 # K8s_Pod
 碗豆莢裡面有多容器，而節點內有多碗豆莢。
 
-![pod](https://raw.githubusercontent.com/QueenieCplusplus/K8s_Pod/master/d.png)
+![pod](https://raw.githubusercontent.com/QueenieCplusplus/K8s_Pod/master/Pod.png)
 
 # Role & Relationship 角色與關係
 
