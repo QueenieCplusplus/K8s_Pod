@@ -10,6 +10,41 @@
     Pod 俗稱碗豆莢子是 K8s 最基本的運作單位，內含有多個碗豆（此處即容器），一個 Pod 碗豆殼子可以算是容器的 Logical Host 邏輯伺服器，一個邏輯伺服器內含有多個 containers，而 containers 彼此是緊密耦合的。
 
     此處的耦合，是指容器共用邏輯伺服器內的資源，如共用儲存區。
+    
+        apiVersion: v1
+        
+        kind: Pod
+        
+        metadata:
+          name: two-containers
+          
+        spec:
+
+          restartPolicy: Never
+
+          volumes:
+          - name: shared-data
+            emptyDir: {}
+
+          
+          
+          containers:
+
+          - name: nginx-container
+            image: nginx
+            volumeMounts:
+            - name: shared-data
+              mountPath: /usr/share/nginx/html
+
+          - name: debian-container
+            image: debian
+            volumeMounts:
+            - name: shared-data
+              mountPath: /pod-data
+            command: ["/bin/sh"]
+            args: ["-c", "echo Hello from the debian container > /pod-data/index.html"]
+
+
 
 * 豌豆莢子與豌豆莢子之間
 
